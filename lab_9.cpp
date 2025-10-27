@@ -251,6 +251,9 @@ int main() {
 				swap_rows(matrix_2, row_1, row_2);
 			}
 			
+			else {
+				std::cout << "Invalid input: Not a matrix number. \n" << std::endl;
+			}
 		}
 		
 		else if (option == 5) {
@@ -277,6 +280,10 @@ int main() {
 			
 			else if (matrix_num == 2) {
 				swap_cols(matrix_2, col_1, col_2);
+			}
+			
+			else {
+				std::cout << "Invalid input: Not a matrix number. \n" << std::endl;
 			}
 			
 		}
@@ -309,6 +316,10 @@ int main() {
 			
 			else if (matrix_num == 2) {
 				matrix_2 = update_matrix_value(matrix_2, row_index, col_index, new_val);
+			}
+			
+			else {
+				std::cout << "Invalid input: Not a matrix number. \n" << std::endl;
 			}
 			
 		}
